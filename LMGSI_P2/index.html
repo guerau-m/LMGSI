@@ -27,8 +27,10 @@
             <h1>BUSCAR una pel·lícula</h1>
             <p>Milions de titols, un sol cercador.</p>
             <div id="buscador">
-                <input type="text" placeholder='Cerca una pel·lícula, per expemple "spiderman"'>
-                <button>Cercar</button>
+                <form method="get" action="https://www.themoviedb.org/search">
+                <input type="search" name="query" placeholder='Cerca una pel·lícula, per expemple "spiderman"' required>
+                <button type="submit">Cercar</button>
+                </form>
             </div>
         </section>
         <section>
