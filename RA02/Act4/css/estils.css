@@ -1,0 +1,120 @@
+/* ===== DISTRIBUCIÓ (codi donat, no el modifiqueu) ===== */
+nav { display: flex; justify-content: space-between; align-items: center; }
+nav ul { display: flex; gap: 32px; }
+.resultats { display: flex; gap: 24px; }
+.targeta { flex: 1; }
+
+
+/* ===== ELS VOSTRES ESTILS ===== */
+* {
+    font-family: "Work Sans", sans-serif;
+    margin: 0;
+}
+nav{
+    background-color: #0b3a5e;
+    padding: 15px 40px;
+}
+nav ul{
+    list-style: none;
+}
+nav a{
+    text-decoration: none;
+    color: #c4c4c4;
+    font-size: 1rem;
+}
+nav a:hover {
+    color: cyan;
+}
+.buscador{
+    padding: 40px 0px;
+}
+.buscador form{
+    max-width: 800px;
+    margin: auto;
+}
+.buscador h1{
+    text-align: center;
+    color: #fff;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+.buscador label{
+    color: #c4c4c4;
+    display: block;
+    font-size: 1rem;
+    text-align: center;
+    padding: 10px;
+    padding-bottom: 20px;
+}
+.buscador-input{
+    display: flex;
+    justify-content: center;
+    gap: 0;
+    padding: 8px;
+}
+.buscador input{
+    width: 70%;
+    color: #fff;
+    background: #0b3a5e;
+    border-radius: 6px 0px 0px 6px;
+    padding: 20px;
+    border: none;
+    font-family: inherit;
+}
+.buscador button[type="submit"] {
+    background-color: cyan;
+    border: none;
+    border-radius: 0px 6px 6px 0px;
+    font-weight: bold;
+    color: #000;
+    font-family: inherit;
+    padding: 0px 30px;
+    text-align: center;
+}
+
+.pelicules{
+    padding: 40px 30px;
+}
+.pelicules h2{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.resultats{
+    padding-bottom: 30px;
+}
+.targeta{
+    background-color: #0b3a5e;
+    border-radius: 6px;
+    color: #fff;
+    text-align: left;
+}
+.targeta img{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 6px 6px 0px 0px;
+}
+.targeta div {
+    padding: 10px;
+}
+.targeta h3{
+    margin: 4px;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.any{
+    color: #90cea1;
+    padding: 0px 5px;
+    margin-top: 2px;
+}
+
+.buscador, footer{
+    background-color: #032541;
+}
+footer p{
+    color: #c4c4c4;
+    padding: 20px;
+}
